@@ -58,7 +58,7 @@ import javax.ws.rs.Path;
  *   math:max(toDouble(token['DQ1']['error']), toDouble(token['DQ2']['error'])) > runtime['max.error.supported']
  * </code></p>
  */
-@Plugin(type = Condition.PLUGIN_TYPE)
+//@Plugin(type = Condition.PLUGIN_TYPE)
 @Name("Conditional")
 @Description("Controls the execution of the pipeline based on the jexl expression.")
 public final class Conditional extends Condition {
